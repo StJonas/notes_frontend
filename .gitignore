@@ -22,11 +22,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-<<<<<<< HEAD
-=======
-=======
 
->>>>>>> 2a37d38ca92ef9504aeedefda8ee4fe781f1d096
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -156,7 +152,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-<<<<<<< HEAD
->>>>>>> notes_frontend/main
-=======
->>>>>>> 2a37d38ca92ef9504aeedefda8ee4fe781f1d096
