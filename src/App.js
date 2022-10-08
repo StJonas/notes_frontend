@@ -1,6 +1,7 @@
 import {
   BrowserRouter as Router,
-  Route
+  Route,
+  withRouter
 } from "react-router-dom";
 
 import './App.css';
@@ -8,16 +9,16 @@ import Header  from './components/Header';
 import NotesListPage from './pages/NotesListPage';
 import NotePage from './pages/NotePage';
 
+
 function App() {
   return (
-    // <div>
-    //   <Header />
-    // </div>
     <Router>
-      <div className="App">
-        <Header/>
-        <Route path="/" exact component={NotesListPage} />
-        <Route path="/note/:id" component={NotePage} /> 
+      <div className="container dark">
+        <div className="app">
+          <Header/>
+          <Route path="/note/:id" component={NotePage} /> 
+          <Route exact path="/" component={NotesListPage} />
+        </div>
       </div>
     </Router>
   );
